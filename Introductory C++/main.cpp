@@ -22,5 +22,7 @@ int main() {
     std::cout << "Sincerely, \n";
     std::cout << "- Rhys Julian-Jones";
     
+    //Compile and execute C++ code using the following commands. g++ <filename>.cpp -o <name> to Compile and ./a.out or ./<name> to Execute
+    
     return 0;
 }
