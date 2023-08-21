@@ -40,5 +40,59 @@ int main() {
     std::cout << "R  R  J J   J J  \n";
     std::cout << "R   R  JJ    JJ  \n";
     
+    std::cout << std::endl;
+    
+    int year;
+    
+    year = 2019;
+    
+    int year2 = 2019;
+    
+    int score = 0;
+    score = 1234 * 99;
+    std::cout << score << "\n";
+    
+    std::cout << std::endl;
+    
+    std::cout << "Player score: " << score << "\n";
+    
+    std::cout << std::endl;
+    
+    int tip = 0;
+    std::cout << "Enter tip amount: ";
+    std::cin >> tip;
+    std::cout << "You paid " << tip << " dollars.\n";
+    
+    std::cout << std::endl;
+    
+    double tempf = 86;
+    double tempc;
+    tempc = (tempf - 32) / 1.8;
+    std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+    
+    std::cout << std::endl;
+    
+    double tempf2;
+    double tempc2;
+    std::cout << "Enter the temperature in Fahrenheit: ";
+    std::cin >> tempf2;
+    tempc2 = (tempf2 - 32) / 1.8;
+    std::cout << "The temp is " << tempc2 << " degrees Celsius.\n";
+    
+    std::cout << std::endl;
+    
+    double earthWeight;
+    double marsWeight;
+    std::cout << "How much does the item weigh: ";
+    std::cin >> earthWeight;
+    marsWeight = earthWeight * 0.38;
+    std::cout << "That item would weigh " << marsWeight << " lbs on Mars.\n\n";
+    
+    double miles, kilometers;
+    std::cout << "How many miles is your distance: ";
+    std::cin >> miles;
+    kilometers = miles * 1.609344;
+    std::cout << "That is " << kilometers << " in kilometers.\n";
+    
     return 0;
 }
